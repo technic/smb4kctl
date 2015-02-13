@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=samba_mount;
+X-KDE-Protocols=smb
+
+[Desktop Action samba_mount]
+Exec=smb4kctl mount "%u"
+Terminal=true
+Icon=emblem-mounted
+Name=mount this samba share

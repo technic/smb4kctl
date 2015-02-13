@@ -1,0 +1,4 @@
+[Project]
+Name=smb4kctl
+Manager=KDevCMakeManager
+VersionControl=kdevgit
